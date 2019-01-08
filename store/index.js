@@ -1,8 +1,8 @@
-const cards = require("./cards.json") || [];
+const data = require("./data.json") || [];
 const leitnerSequence = require("./leitnerSequence");
 
 function getCards() {
-  return cards;
+  return data.cards;
 }
 
 module.exports = { getCards };
