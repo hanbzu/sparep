@@ -1,6 +1,10 @@
 {
   "name": "sparep",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "description": "Command line spaced repetition goodness",
+  "license": "MIT",
+  "bin": {
+    "sparep": "./cli.js"
+  },
+  "dependencies": {}
 }
